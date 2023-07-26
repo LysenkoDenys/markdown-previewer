@@ -1,17 +1,65 @@
+body {
+  background-color: rgb(64, 104, 104);
+  box-sizing: border-box;
+  font-family: "Russo One", sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-h1 {
-  font-size: 90px;
-  margin-top: 20px;
+.editorWrap {
+  width: 50%;
+  margin: 0 auto;
 }
 
-button {
-  padding: 15px;
-  font-size: 30px;
-  border-radius: 5px;
-  border: 0;
-  margin: 20px;
-  cursor: pointer;
+textarea {
+  min-height: 200px;
+  margin-bottom: 15px;
+  resize: vertical;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 0.875rem;
+  border: none;
+}
+
+.fcc {
+  margin-right: 3px;
+}
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  background-color: #4aa3a3;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-family: Russo One;
+  font-size: 1rem;
+  color: white;
+  text-align: left;
+}
+
+#editor {
+  width: 100%;
+  background-color: rgb(43, 69, 69);
+  border-right-color: rgb(127, 118, 105);
+  border-bottom-color: rgb(127, 118, 105);
+  border-left-color: rgb(127, 118, 105);
+  box-shadow: rgb(46, 76, 76) 1px 1px 10px 2px;
+  border-top-color: initial;
+  color: rgb(209, 205, 199);
+}
+
+/* ==================================================== */
+.previewWrap {
+  background-color: rgb(43, 69, 69);
+  border-right-color: rgb(127, 118, 105);
+  border-bottom-color: rgb(127, 118, 105);
+  border-left-color: rgb(127, 118, 105);
+  box-shadow: rgb(46, 76, 76) 1px 1px 10px 2px;
+  border-top-color: initial;
 }
