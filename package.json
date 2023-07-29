@@ -10,7 +10,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-markdown": "^8.0.7",
     "react-scripts": "5.0.1",
+    "rehype-raw": "^6.1.1",
+    "rehype-react": "^7.2.0",
+    "remark-gfm": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

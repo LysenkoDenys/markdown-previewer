@@ -1,0 +1,65 @@
+.editorWrap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: 15px;
+  resize: vertical;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 0.875rem;
+  border: none;
+  background-color: rgb(43, 69, 69);
+  border-right-color: rgb(127, 118, 105);
+  border-bottom-color: rgb(127, 118, 105);
+  border-left-color: rgb(127, 118, 105);
+  box-shadow: rgb(46, 76, 76) 1px 1px 10px 2px;
+  border-top-color: initial;
+  color: rgb(209, 205, 199);
+}
+
+.textarea.deployed {
+  height: 100vh;
+}
+
+.nameWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fcc {
+  width: 25px;
+}
+.fcc2 {
+  width: 25px;
+  cursor: pointer;
+}
+.fcc2:hover {
+  color: rgb(232, 232, 227);
+}
+
+.toolbar {
+  /* none touch */
+  user-select: none; /* Standard */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #4aa3a3;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-size: 1rem;
+  color: white;
+  text-align: left;
+}
