@@ -4,8 +4,8 @@ const data = `# Welcome to my React Markdown Previewer!
 
 Heres some code, \`<div></div>\`, between 2 backticks.
 
-\`\`\`
-this is multi-line code:
+\`\`\`js
+//this is multi-line code:
 
 function anotherExample(firstLine, lastLine) {
   if (firstLine == '\`\`\`' && lastLine == '\`\`\`') {
@@ -34,6 +34,10 @@ And here. | Okay. | I think we get it.
      - With different indentation levels.
         - That look like this.
 
+
+        And Todo lists:
+        * [ ] todo
+        * [x] done
 
 1. And there are numbered lists too.
 1. Use just 1s if you want!
