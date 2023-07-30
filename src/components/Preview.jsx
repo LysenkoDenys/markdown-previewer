@@ -43,8 +43,8 @@ const Preview = (props) => {
           <ReactMarkdown
             children={props.data}
             remarkPlugins={[remarkGfm]}
-            escapeHtml={false}
-            allowDangerousHtml={true}
+            // escapeHtml={false}
+            // allowDangerousHtml={true}
             rehypePlugins={[rehypeRaw, rehypeHighlight]}
           />
         </div>
