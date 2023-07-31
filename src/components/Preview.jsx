@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import rehypeRaw from "https://cdn.skypack.dev/rehype-raw@6?dts";
-import rehypeHighlight from "https://esm.sh/rehype-highlight@5";
+import rehypeRaw from "rehype-raw";
+import rehypeHighlight from "rehype-highlight";
 
 import {
   FaFreeCodeCamp,
